@@ -1,0 +1,8 @@
+version: '2'
+services:
+  realestate-email-aggregator-fe-vuejs:
+      image: realestate_email_aggregator_fe_vuejs
+      container_name: realestate_email_aggregator_fe_vuejs
+      restart: unless-stopped
+      ports:
+        - 80:80

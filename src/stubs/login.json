@@ -1,0 +1,9 @@
+{
+  "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdHlrbyIsImlhdCI6MTU5MTAyODQyMSwiZXhwIjoxNTkxMTE0ODIxfQ.mx4CbFLXm-plYCb_64O5Y3eZrS-7yQOB_GTOR3vgNmX9yGptqPJal-W8igwr2btwBf4jgBBkpk1drrcio9ri8A",
+  "type": "Bearer",
+  "username": "styko",
+  "email": "styko@styko.io",
+  "roles": [
+    "ROLE_ADMIN"
+  ]
+}
