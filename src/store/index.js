@@ -11,7 +11,6 @@ const store = {
     if (this.state.userData && this.state.userData.token) {
       this.state.loggedIn = true;
     }
-    debugger;
   },
   removeUserData() {
     if (this.debug) console.log('removeUserData triggered');
