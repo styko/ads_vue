@@ -55,7 +55,7 @@
       </template>
 
       <template v-slot:top>
-        <v-dialog v-model="dialog" >
+        <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
           <v-card>
             <v-system-bar color="white">
               <v-spacer></v-spacer>
