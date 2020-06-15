@@ -1,86 +1,174 @@
 {
-  "_embedded": {
-    "ads": [
-      {
-        "link": "https://www.topreality.sk/id7249858",
-        "title": "Rodinný DOM s krbom v pokojnom prostredí Záhorskej Bystrice - LEOPOLDOV MAJER",
-        "lastPrice": 331200,
-        "currency": "€",
-        "prices": [
-          {
-            "updated": "2020-05-26T12:57:05.946497Z",
-            "value": 331200
-          }
-        ],
-        "locality": "Bratislava IV, Záhorská Bystrica",
-        "address": "Tešedíkova",
-        "size": 632,
-        "category": "Rodinný dom / predaj",
-        "description": "B10 Vám ponúka na predaj tento 3-izbový dvojpodlažný Rodinný dom v pokojnom prostredí Záhorskej Bystrice na ulici Leopoldov majer.\n\n\n\n\n\nDom je postavený na pozemku o rozlohe 632 m2, kde okrem domu samotného nájdeme rozľahlú záhradu so stromami. Dom bol postavený v roku 2005 a je v skvelom technickom stave. Konštrukcia domu je tehlová, doplnená dreveným obložením, strecha je škridlová.\n\n\n\n\n\nPodlahová plocha domu je 86 m2. Do domu sa dostaneme vchodom do predsiene, odkiaľ môžme ísť do kuchyne spojenej s obývačkou. Odtiaľto máme vstup na priestrannú terasu. V tejto časti domu nájdeme aj prvú kúpelňu s bojlerom. Z predsiene sa popri vstavanom roldore dostávame do veľkej miestnosti, kde nás zahreje vstavaný krb. Odtiaľto sa schodiskom dostaneme na druhé podlažie. Pod schodiskom je plynový kotol, ktorý vykuruje celý priestor domu. Na druhom podlaží okrem druhej kúpelne nájdeme obrovskú spálňu, ktorú je možné rozdeliť na 2 samostatné miestnosti.\n\n\n\n\n\nDom sa nachádza v uzavretej oblasti, ktorá poskytuje pocit súkromia. K domu prislúcha spoluvlastnícky podiel na pozemku pod príjazdovou cestou. Parkovanie je možné v slepej uličke pred domom a rovnako aj vo dvore (priestor pre celkovo 2-3 autá).\n\n\n\n\n\nV prípade vážneho záujmu je možná dohoda na cene.\n\n\n\n\n\nLOKALITA\n\n- mestská časť Záhorská Bystrica\n\n- 5 min. pešou chôdzou zastávka MHD (37), Tesco expres\n\n- pokojné prostredie\n\n- blízkosť turistických chodníkov do Karpát\n\n\n\n\n\nV prípade záujmu o ďalšie informácie, fotky, pôdorys, obhliadku, videobhliadku alebo bližšie informácie ma neváhajte kontaktovať na tel.č. 0949 833 900\n\nID: 73140\n\nCena: 331200 €\n\nAj váš dom, byt alebo pozemok predáme na počkanie #pocelomslovensku",
-        "contact": "0949 833 900",
-        "created": "2020-05-26T12:57:05.930306Z",
-        "updated": null,
-        "deactivated": null,
-        "countOfUpdates": 0,
-        "galleryUrl": "https://www.topreality.sk/luxusny-moderny-6izb-rd-priehradna-pozemok-947m2-vis-3-garaz-r7273791/galeria.html#1",
-        "_links": {
-          "self": {
-            "href": "http://localhost:8080/ads/9"
-          },
-          "ad": {
-            "href": "http://localhost:8080/ads/9"
-          }
-        }
-      },
-      {
-        "link": "https://www.topreality.sk/id7249815",
-        "title": "LEXXUS-PREDAJ, 2-podlažný RD na bývanie aj podnikanie, TRNÁVKA",
-        "lastPrice": null,
-        "currency": "",
-        "prices": [
-          {
-            "updated": "2020-05-26T12:57:07.832746Z",
-            "value": null
-          }
-        ],
-        "locality": "Bratislava II, Ružinov",
-        "address": "Klátovská",
-        "size": 429,
-        "category": "Rodinný dom / predaj",
-        "description": "Na predaj veľký 2-podlažný rodinný dom pre trvalé bývanie s možnosťou firemného zázemia, BA II., Trnávka - Klatovská ul.\n\nDispozícia rodinného domu pozostáva z :\n\nPrízemia: rozloha 156 m2, kde sa nachádza priestranná vstupná chodba, veľká kúpelňa - technická miestnosť, obývacia izba + kuchyňa, toaleta. Prízemie má 2 samostatné vstupy na ulicu, 1 vstup do záhrady a do suterénu.\n\n1.NP : o rozlohe 156 m2 sa nachádzajú 3 spálne s vlastnými kúpeľňami.\n\n2.NP : o rozlohe 117 m2, 1 veľká miestnosť - galéria a samostatná kuchyňa, kúpelňa.\n\nV dome je elektrické podlahové kúrenie, hliníkové okná v obývacej izbe a galérii, ostatné okná sú plastové.\n\nRodinný dom je postavený z tehly, 5 cm zateplenie, pozemok o rozlohe 850 m2 s prístupom z dvoch strán, čo umožňuje maximálne využitie nielen záhrady, ale aj parkovania pre minimálne 5 - vozidiel.\nCelý dom je podpivničený s parkovaním pre 2-3 autá a ďalšieho úložného priestoru.\n\nVýhodou uvedeného domu je, že sa nachádza v blízkosti veľkých obchodných centier a hlavného diaľničného pripojenia Zlaté piesky, čo umožňuje podnikaniu výborné podmienky s výbornou dostupnosťou. Orientácia domu je na VZ.\nPriestor v suteréne potrebuje menšie úpravy - dokončenie.\n\nCena na požiadanie v RK TOPPONUKA",
-        "contact": "+421 915 570 802",
-        "created": "2020-05-26T12:57:07.814840Z",
-        "updated": null,
-        "deactivated": null,
-        "countOfUpdates": 0,
-        "galleryUrl": "https://www.topreality.sk/lexxus-predaj-2-podlazny-rd-na-byvanie-aj-podnikanie-trnavka-r7249815/galeria.html#1",
-        "_links": {
-          "self": {
-            "href": "http://localhost:8080/ads/10"
-          },
-          "ad": {
-            "href": "http://localhost:8080/ads/10"
-          }
+  "_embedded" : {
+    "ads" : [ {
+      "link" : "https://www.topreality.sk/id7274860",
+      "title" : "Predaj - veľmi pekný starší rodinný dom vo Vajnoroch",
+      "lastPrice" : null,
+      "currency" : "",
+      "prices" : [ {
+        "updated" : "2020-06-15T09:43:50Z",
+        "value" : null
+      } ],
+      "locality" : "Bratislava III, Vajnory",
+      "address" : "Uhliská",
+      "size" : 270,
+      "category" : "Rodinný dom / predaj",
+      "description" : "Ponúkame exkluzívne na predaj pekný, starší rodinný dom vo Vajnoroch na Uhliskej ul. Dom sa nachádza na pozemku o rozlohe 660 m2 o zastavanej ploche 280 m2 a obytnej ploche 270 m2.\nDom pozostáva z dvoch nadzemných podlaží a suterénu. V suteréne domu sa nachádzajú tri miestnosti a veľká garáž. Na 1 NP sa nachádza samostatný byt o rozlohe 90 m2 , ktorý sa skladá z troch izieb, predsiene, kúpeľne, samostatnej toalety, kuchyne s komorou a balkóna.\nNa 2 NP nachádza samostatný byt o rozlohe 90 m2 , ktorý sa skladá z troch izieb, predsiene, kúpeľne, samostatnej toalety, kuchyne s komorou a balkóna.\nDom je využiteľný ako samostatné dve bytové jednotky, pričom každý byt má zvlášť vstup bez narušenia súkromia po oddelenom schodišti.\n\nCena nehnuteľnosti je 360.000,- eur vrátane provízie pre RK.\n\n***BM Real Estate*** je realitná kancelária s dennou on-line ponukou nehnuteľností na nete, zaoberajúca sa kúpou, predajom a prenájmom nehnuteľností... ďalej kompletnou projekčnou, inžinierskou a stavebnou činnosťou.\n\nOstatné informácie a obhliadky na tel. č. 0911 722 242 Mgr. Križanovič, e-mail: krizanovic@bmre.sk",
+      "contact" : "0911 722 242",
+      "created" : "2020-06-15T09:43:50Z",
+      "updated" : null,
+      "deactivated" : null,
+      "countOfUpdates" : 0,
+      "galleryUrl" : "https://www.topreality.sk/predaj-velmi-pekny-starsi-rodinny-dom-vo-vajnoroch-r7274860/galeria.html#1",
+      "_links" : {
+        "self" : {
+          "href" : "https://ads-sb.styko.online/ads/32"
+        },
+        "ad" : {
+          "href" : "https://ads-sb.styko.online/ads/32"
         }
       }
-    ]
+    }, {
+      "link" : "https://www.topreality.sk/id7274798",
+      "title" : "6 - izbový rodinný dom - Bratislava IV – KARLOVA VES, LÍŠČIE ÚDOLIE - TOP LOKALITA",
+      "lastPrice" : 570000,
+      "currency" : "€",
+      "prices" : [ {
+        "updated" : "2020-06-15T09:14:07Z",
+        "value" : 570000
+      } ],
+      "locality" : "Bratislava IV, Karlova Ves",
+      "address" : "Líščie údolie",
+      "size" : 298,
+      "category" : "Rodinný dom / predaj",
+      "description" : "Ponúkame Vám na predaj 6 - izbový rodinný dom - Bratislava IV – KARLOVA VES, LÍŠČIE ÚDOLIE, tichá a vyhľadávaná lokalita s neopakovateľnou atmosférou vidieckeho bývania v ruchu hlavného mesta\n\nRD je dvojpodlažný. Výmera 297,81 m2, pozemok 377 m2 / z toho 347 m2 vo vlastnictve + 30 m2 v nájme - dvor/\n\nDispozičné riešenie :\n\n1NP : 138,89 m2 - kuchyňa s jedálenskou časťou, samostatná spálňa, obývacia izba s krbom, kúpeľňa so sprchovým kútom, samostatná toaleta, komora s vínnou pivničkou, sklad, garáž\n\n2NP: 158,92 m2 - 3 spálne, obývacia izba, kúpeľňa s vaňou, toaleta, terasa\n\nRD je zaujímavý svojim dispozičným riešením, ktoré poskytuje komfortné bývanie a útulný domov, je slnečný, jeho čaro dotvárajú dva krby, krásne trámy, ale aj vínna pivnička so stálou teplotou. Celý dom dýcha príjemnou atmosférou.\n\nVstupná zóna je umiestnená tak, aby sa z nej dalo voľne vstupovať do oboch častí domu - oddychovej aj spoločenskej. Denná časť má otvorený charakter s voľne prepojenými oblasťami kuchyne, jedálne aj obývacej izby. Kvalitná kuchynská linka je v tvare U, má zabudované elektrospotrebiče. Kúpeľňa a toaleta na prízemí sú v modernom dizajne. Na poschodí sú situované 3 samostatné spálne, priestranná kúpeľňa. Štýlová obývacia izba je priechodná, roll door po celej šírke poskytuje dostatok úložného priestoru, 3 spálňa je vybavená klimatizáciou, má výstup na terasu o výmere 6,30 m2 s výhľadom do záhrady. Exteriér záhrady poskytuje ideálne podmienky pre voľno časové aktivity a posedenia s rodinou. Súčasťou altánku je fínska sauna. Kúrenie – radiátory, vlastný plynový kotol.Zrekonštruovaný RD je napojený na všetky IS a  je vhodne zasadený do okolitého prostredia zástavby rodinných domov.\n\nLV čisté, bez tiarch\n\nCena: 570.000 EUR\n\nKontakt: Jela Béresová 0903 785 292\n\nemail: beresova@loftreal.sk",
+      "contact" : "0903 785 292",
+      "created" : "2020-06-15T09:14:07Z",
+      "updated" : null,
+      "deactivated" : null,
+      "countOfUpdates" : 0,
+      "galleryUrl" : "https://www.topreality.sk/6-izbovy-rodinny-dom-bratislava-iv-karlova-ves-liscie-udolie-top-lokalita-r7274798/galeria.html#1",
+      "_links" : {
+        "self" : {
+          "href" : "https://ads-sb.styko.online/ads/34"
+        },
+        "ad" : {
+          "href" : "https://ads-sb.styko.online/ads/34"
+        }
+      }
+    }, {
+      "link" : "https://www.topreality.sk/id7274649",
+      "title" : "Kuchárek-real: Predaj 3 izbový mezonetový byt s garážou a veľkou terasou v Bratislave III, mestskej časť VAJNORY, na ul. Čierny chodník.",
+      "lastPrice" : null,
+      "currency" : "",
+      "prices" : [ {
+        "updated" : "2020-06-15T07:53:40Z",
+        "value" : null
+      } ],
+      "locality" : "Bratislava III, Vajnory",
+      "address" : "Čierny chodník",
+      "size" : 103,
+      "category" : "Rodinný dom / predaj",
+      "description" : "KUCHÁREK REAL, s.r.o. ponúka bývanie ako v rodinnom dome - predaj 3 izbový mezonetový byt s garážou a veľkou terasou v Bratislave III, mestskej časť VAJNORY, na ul. Čierny chodník.\nCelková rozloha bytu je 103 m2 + podkrovie 15 m2, terasa 44 m2, garáž 14 m2. Byt sa nachádza na prízemí tehlového bytového domu. Jedná sa o radovú stavbu (to znamená, že v dome sa nachádza 1 byt). Jedná sa o 20 ročnú stavbu.\n\nDISPOZÍCIA:\nPrízemie: kuchyňa 11m2, jedáleň 10m2, obývacia izba 29m2 - z nej vstup na terasu, WC.\nPoschodie: izba 15m2, izba 11,66m2, kúpeľňa s WC, šatník.\n\nSTAV BYTU:\nByt prešiel kompletnou rekonštrukciou (v izbách a kuchyni laminátová podlaha, kúpeľňa, 2 x WC a chodba - dlažba, zárubne, interiérové dvere, kuchynská linka so zabudovanými spotrebičmi vrátane chladničky, umývačky riadu, digestor, elektrická rúra a plynová varná doska), kúpeľňa so sprchovacím kútom a WC na poschodí, plastové okná , bezpečnostné dvere). V izbách na poschodí je nainštalovaná klimatizačná jednotka. Byt má samostatné kúrenie. Dostatok úložného priestoru poskytuje jednak samostatný šatník, ROLLDOR v chodbe, v spálni. Byt je pripravený k okamžitému nasťahovaniu bez akýchkoľvek ďalších potrebných investícií. Podkrovný priestor o rozlohe 15m2, ktorý slúži na odkladanie sezónnych vecí. Okrem garáže je možnosť parkovania pred domom, kde je zaplatené parkovanie do 09/2020.\n\nLOKALITA:\nLokalita Vajnory ponúka tiché bývanie ako na „DEDINE“, a pri tom ste v meste. Vajnory ponúkajú kompletnú občiansku vybavenosť (školy, škôlky, obchody, pošta, zdravotnícke zariadenie, Doprava – MHD), dobrú dostupnosť do centra mesta a na diaľničný obchvat. Určite oceníte blízkosť Vajnorského jazera, cyklotrasa JURAVA, prepojenie do Rače, vlakové spojenie na Hlavnú stanicu.\n\nKúpna cena celkom - t.j. RD, garáž, pozemok, plus vrátane provízie RK – 240. 000 EUR.\nMožnosť platby prostredníctvom hypotekárneho úveru.\n\nOdporúčam vidieť – teším sa na Vás na obhliadke!\n\nKontakt : Mgr. Oľga Adamovičová 0903 448 717\nKúpa nehnuteľnosti cez našu realitnú kanceláriu Vám zabezpečí:\n- Prvotriedny a bezplatný právny servis,\n- Osobný prístup ku každému klientovi,\n- Cena je konečná a zahŕňa: sprostredkovateľskú províziu, vypracovanie zmlúv,\nnotárske poplatky, základný poplatok na vklad ku kúpnej zmluve.\n- V prípade potreby neváhajte využiť bezplatné služby nášho hypotekárneho\nšpecialistu\n\nwww.kucharekreality.sk",
+      "contact" : "+421 903 448 717",
+      "created" : "2020-06-15T07:53:40Z",
+      "updated" : null,
+      "deactivated" : null,
+      "countOfUpdates" : 0,
+      "galleryUrl" : "https://www.topreality.sk/kucharek-real-predaj-3-izbovy-mezonetovy-byt-s-garazou-a-velkou-terasou-v-bratislave-iii-mestskej-cast-vajnory-na-ul-cierny-chodnik-r7274649/galeria.html#1",
+      "_links" : {
+        "self" : {
+          "href" : "https://ads-sb.styko.online/ads/36"
+        },
+        "ad" : {
+          "href" : "https://ads-sb.styko.online/ads/36"
+        }
+      }
+    }, {
+      "link" : "https://www.topreality.sk/id7273791",
+      "title" : "Luxusný, moderný 6izb. RD, Priehradná, pozemok 947m2, VIS, 3-garáž",
+      "lastPrice" : 655000,
+      "currency" : "€",
+      "prices" : [ {
+        "updated" : "2020-06-13T19:30:47Z",
+        "value" : 655000
+      } ],
+      "locality" : "Bratislava II, Vrakuňa",
+      "address" : "Priehradná",
+      "size" : 330,
+      "category" : "Rodinný dom / predaj",
+      "description" : "Predáme na ul. Priehradná luxusný veľkorysý 6izb. 2 podlažný RD. Dom je postavený na pozemku o výmere 947m2 so všetkými inžinierskymi sieťami (mestská voda, elektrina, plyn, kanalizácia + studňa hĺbka 13m). Kolaudácia domu prebehla v roku 2013. Dom je tehlový, zateplený 10cm polystyrénom, kvalitná STO omietka, krytina - fólia Fatrafol, kúrenie je ústredné (radiátory + podlahovka), kondenzačný kotol Geminox, plastové okná, celá jedáleň presklená hliníkovými oknami, energetická trieda B. Zastavaná plocha domu je cca 160m2, užitková plocha domu je 330m2, rozmer domu 12m x 15m, rozmer pozemku 16m x 58m. Na prízemí sa nachádza kuchyňa s luxusnou kuchynskou linkou zn. Veneta Cucine s kopmlet vstavanými spotrebičmi, jedálenský kút, obývacia izba, kúpeľňa, komora, šatník. Na medziposchodí sa nachádza kompletný 2 izb. byt so samostatným vstupom. Na 1.p. sú 3 izby, veľká kúpeľňa, šatník zo spálne a balkón. V suteréne sú 3 veľké miestnosti. Garáž je určená pre parkovanie 3 áut, brána na diaľkové ovládanie, predpríprava krbu v obývacej izbe a videovrátnik. Pozemok je upravený, oplotený, okrasná záhradka, užitková záhradka, zámková dlažba + možnosť parkovania aj pred domom vo dvore. Prevádzkové náklady: elektrina 45 EUR, plyn 85 EUR, voda 15 EUR. Výhody: luxusný, slnečný, tiché prostredie, obchody, škola, škôlka, zastávka autobusu, rybolov, turistika, cykloturistika.",
+      "contact" : "0904 885 517",
+      "created" : "2020-06-13T19:30:47Z",
+      "updated" : null,
+      "deactivated" : null,
+      "countOfUpdates" : 0,
+      "galleryUrl" : "https://www.topreality.sk/luxusny-moderny-6izb-rd-priehradna-pozemok-947m2-vis-3-garaz-r7273791/galeria.html#1",
+      "_links" : {
+        "self" : {
+          "href" : "https://ads-sb.styko.online/ads/28"
+        },
+        "ad" : {
+          "href" : "https://ads-sb.styko.online/ads/28"
+        }
+      }
+    }, {
+      "link" : "https://www.topreality.sk/id7273717",
+      "title" : "Rodinný DOM s krbom v pokojnom prostredí Záhorskej Bystrice - LEOPOLDOV MAJER",
+      "lastPrice" : 319990,
+      "currency" : "€",
+      "prices" : [ {
+        "updated" : "2020-06-13T16:48:16Z",
+        "value" : 319990
+      } ],
+      "locality" : "Bratislava IV, Záhorská Bystrica",
+      "address" : "Tešedíkova",
+      "size" : 632,
+      "category" : "Rodinný dom / predaj",
+      "description" : "B10 Vám ponúka na predaj tento 3-izbový dvojpodlažný Rodinný dom v pokojnom prostredí Záhorskej Bystrice na ulici Leopoldov majer.\n\n\n\n\n\nDom je postavený na pozemku o rozlohe 632 m2, kde okrem domu samotného nájdeme rozľahlú záhradu so stromami. Dom bol postavený v roku 2005 a je v skvelom technickom stave. Konštrukcia domu je tehlová, doplnená dreveným obložením, strecha je škridlová.\n\n\n\n\n\nPodlahová plocha domu je 86 m2. Do domu sa dostaneme vchodom do predsiene, odkiaľ môžme ísť do kuchyne spojenej s obývačkou. Odtiaľto máme vstup na priestrannú terasu. V tejto časti domu nájdeme aj prvú kúpelňu s bojlerom. Z predsiene sa popri vstavanom roldore dostávame do veľkej miestnosti, kde nás zahreje vstavaný krb. Odtiaľto sa schodiskom dostaneme na druhé podlažie. Pod schodiskom je plynový kotol, ktorý vykuruje celý priestor domu. Na druhom podlaží okrem druhej kúpelne nájdeme obrovskú spálňu, ktorú je možné rozdeliť na 2 samostatné miestnosti.\n\n\n\n\n\nDom sa nachádza v uzavretej oblasti, ktorá poskytuje pocit súkromia. K domu prislúcha spoluvlastnícky podiel na pozemku pod príjazdovou cestou. Parkovanie je možné v slepej uličke pred domom a rovnako aj vo dvore (priestor pre celkovo 2-3 autá).\n\n\n\n\n\nV prípade vážneho záujmu je možná dohoda na cene.\n\n\n\n\n\nLOKALITA\n\n- mestská časť Záhorská Bystrica\n\n- 5 min. pešou chôdzou zastávka MHD (37), Tesco expres\n\n- pokojné prostredie\n\n- blízkosť turistických chodníkov do Karpát\n\n\n\n\n\nV prípade záujmu o ďalšie informácie, fotky, pôdorys, obhliadku, videobhliadku alebo bližšie informácie ma neváhajte kontaktovať na tel.č. 0949 833 900\n\nID: 74742\n\nCena: 319990 €\n\nAj váš dom, byt alebo pozemok predáme na počkanie #pocelomslovensku",
+      "contact" : "0949 833 900",
+      "created" : "2020-06-13T16:48:16Z",
+      "updated" : null,
+      "deactivated" : null,
+      "countOfUpdates" : 0,
+      "galleryUrl" : "https://www.topreality.sk/rodinny-dom-s-krbom-v-pokojnom-prostredi-zahorskej-bystrice-leopoldov-majer-r7273717/galeria.html#1",
+      "_links" : {
+        "self" : {
+          "href" : "https://ads-sb.styko.online/ads/27"
+        },
+        "ad" : {
+          "href" : "https://ads-sb.styko.online/ads/27"
+        }
+      }
+    } ]
   },
-  "_links": {
-    "self": {
-      "href": "http://localhost:8080/ads{?page,size,sort}",
-      "templated": true
+  "_links" : {
+    "first" : {
+      "href" : "https://ads-sb.styko.online/ads?page=0&size=5&sort=created,desc"
     },
-    "profile": {
-      "href": "http://localhost:8080/profile/ads"
+    "prev" : {
+      "href" : "https://ads-sb.styko.online/ads?page=0&size=5&sort=created,desc"
     },
-    "search": {
-      "href": "http://localhost:8080/ads/search"
+    "self" : {
+      "href" : "https://ads-sb.styko.online/ads"
+    },
+    "next" : {
+      "href" : "https://ads-sb.styko.online/ads?page=2&size=5&sort=created,desc"
+    },
+    "last" : {
+      "href" : "https://ads-sb.styko.online/ads?page=7&size=5&sort=created,desc"
+    },
+    "profile" : {
+      "href" : "https://ads-sb.styko.online/profile/ads"
+    },
+    "search" : {
+      "href" : "https://ads-sb.styko.online/ads/search"
     }
   },
-  "page": {
-    "size": 20,
-    "totalElements": 2,
-    "totalPages": 1,
-    "number": 0
+  "page" : {
+    "size" : 5,
+    "totalElements" : 36,
+    "totalPages" : 8,
+    "number" : 1
   }
 }

@@ -55,7 +55,8 @@
       </template>
 
       <template v-slot:top>
-        <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
+        <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition"
+                  fixed-header>
           <v-card>
             <v-system-bar color="white">
               <v-spacer></v-spacer>
@@ -177,6 +178,11 @@ export default {
       { text: 'Dates', value: 'dates', width: '10%' },
       { text: 'Description', value: 'description', width: '50%' },
     ],
+    scrollOptions: {
+      duration: 600,
+      offset: 0,
+      easing: 'easeInOutCubic',
+    },
   }),
   components: {
     Gallery,
@@ -207,6 +213,7 @@ export default {
         this.ads = res.data;
         this.totalAds = res.page.totalElements;
         this.loading = false;
+        await this.$vuetify.goTo('#table > div.v-data-table__wrapper > table > tbody > tr:nth-child(1)', this.scrollOptions);
       },
       deep: true,
     },
