@@ -1,5 +1,14 @@
 # realestate_email_aggregator_fe_vuejs
 
+#### realestate_email_aggregator_fe_vuejs
+
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=realestate_email_aggregator_fe_vuejs&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=realestate_email_aggregator_fe_vuejs)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=realestate_email_aggregator_fe_vuejs&metric=security_rating)](https://sonarcloud.io/dashboard?id=realestate_email_aggregator_fe_vuejs)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=realestate_email_aggregator_fe_vuejs&metric=sqale_index)](https://sonarcloud.io/dashboard?id=realestate_email_aggregator_fe_vuejs)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=realestate_email_aggregator_fe_vuejs&metric=code_smells)](https://sonarcloud.io/dashboard?id=realestate_email_aggregator_fe_vuejs)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=realestate_email_aggregator_fe_vuejs&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=realestate_email_aggregator_fe_vuejs)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=realestate_email_aggregator_fe_vuejs&metric=coverage)](https://sonarcloud.io/dashboard?id=realestate_email_aggregator_fe_vuejs)
+
 ## Project setup
 ```
 npm install
