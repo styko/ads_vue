@@ -6,7 +6,8 @@
                   :disable-sort="true"
                   :server-items-length="totalAds"
                   :loading="loading"
-                  :options.sync="options">
+                  :options.sync="options"
+                  :page.sync="page">
       <template v-slot:item.link="props">
         <div class="text-xs-left">
           <a :href="props.item.link">{{ props.item.link }}</a>
@@ -183,6 +184,7 @@ export default {
       offset: 0,
       easing: 'easeInOutCubic',
     },
+    page: 1,
   }),
   components: {
     Gallery,
@@ -213,9 +215,11 @@ export default {
         this.ads = res.data;
         this.totalAds = res.page.totalElements;
         this.loading = false;
-        await this.$vuetify.goTo('#table > div.v-data-table__wrapper > table > tbody > tr:nth-child(1)', this.scrollOptions);
       },
       deep: true,
+    },
+    page() {
+      this.$vuetify.goTo('#table > div.v-data-table__wrapper > table > tbody > tr:nth-child(1)', this.scrollOptions);
     },
   },
 };
