@@ -7,7 +7,11 @@
                   :server-items-length="totalAds"
                   :loading="loading"
                   :options.sync="options"
-                  :page.sync="page">
+                  :page.sync="page"
+                  :footer-props="{
+                    showFirstLastPage: false,
+                    itemsPerPageOptions: [5]
+                  }">
       <template v-slot:item.link="props">
         <div class="text-xs-left">
           <a :href="props.item.link">{{ props.item.link }}</a>
