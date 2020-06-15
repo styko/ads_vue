@@ -6,10 +6,6 @@ on:
   pull_request:
     branches: [ master ]
 
-defaults:
-  run:
-    working-directory: realestate_email_aggregator_fe_vuejs
-
 jobs:
   run-lint-test-build-sonar:
     runs-on: ubuntu-latest
@@ -24,7 +20,7 @@ jobs:
       - run: npm run build -- --mode development
       - name: fix code coverage paths
         run: |
-          sed -i 's+/home/runner/work/ads_vue+/github/workspace+g' coverage/lcov.info
+          sed -i 's+/home/runner/work/ads_vue/ads_vue+/github/workspace+g' coverage/lcov.info
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
         env:

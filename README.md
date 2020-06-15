@@ -9,6 +9,7 @@
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=realestate_email_aggregator_fe_vuejs&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=realestate_email_aggregator_fe_vuejs)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=realestate_email_aggregator_fe_vuejs&metric=coverage)](https://sonarcloud.io/dashboard?id=realestate_email_aggregator_fe_vuejs)
 
+
 ## Project setup
 ```
 npm install
