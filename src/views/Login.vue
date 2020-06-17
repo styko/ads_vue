@@ -73,7 +73,7 @@ export default {
     },
     routeToAdds() {
       if (store.state.loggedIn) {
-        this.$router.push('/ads');
+        this.$router.push('/latest-ads');
       }
     },
   },

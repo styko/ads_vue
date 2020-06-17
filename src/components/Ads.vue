@@ -163,6 +163,9 @@ import PriceGraph from '@/components/PriceGraph.vue';
 import { DateTime } from 'luxon';
 
 export default {
+  props: {
+    adsType: String,
+  },
   data: () => ({
     dialog: false,
     dialogItem: {},
@@ -203,6 +206,16 @@ export default {
       this.dialogIndex = this.ads.indexOf(item);
       this.dialogItem = { ...item };
     },
+    async getAds() {
+      debugger;
+      if (this.adsType === 'latest') {
+        return restService.getLatestAds(this.options.page, this.options.itemsPerPage);
+      }
+      if (this.adsType === 'deactivated') {
+        return restService.getDeactivatedAds(this.options.page, this.options.itemsPerPage);
+      }
+      throw new Error('Wrong adsType');
+    },
   },
   filters: {
     formatLuxon(value) {
@@ -215,7 +228,7 @@ export default {
     },
     options: {
       async handler() {
-        const res = await restService.getLatestAds(this.options.page, this.options.itemsPerPage);
+        const res = await this.getAds();
         this.ads = res.data;
         this.totalAds = res.page.totalElements;
         this.loading = false;

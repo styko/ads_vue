@@ -33,6 +33,21 @@ export default {
       }))
       .catch((error) => error.response.data.message));
   },
+  async getDeactivatedAds(page, size) {
+    return Object.freeze(axios.get(`${process.env.VUE_APP_REST_API_URL}/ads/search/findAllByDeactivatedIsNotNull`, {
+      headers: authHeader(),
+      params: {
+        page: page - 1,
+        size,
+        sort: 'created,desc',
+      },
+    })
+      .then((response) => ({
+        data: response.data._embedded.ads,
+        page: response.data.page,
+      }))
+      .catch((error) => error.response.data.message));
+  },
   async login(user) {
     return axios
       .post(`${process.env.VUE_APP_REST_API_URL}/api/auth/signin`, {
