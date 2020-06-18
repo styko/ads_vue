@@ -206,12 +206,11 @@ export default {
       this.dialogIndex = this.ads.indexOf(item);
       this.dialogItem = { ...item };
     },
-    async getAds() {
-      debugger;
-      if (this.adsType === 'latest') {
+    async getAds(adsType) {
+      if (adsType === 'latest') {
         return restService.getLatestAds(this.options.page, this.options.itemsPerPage);
       }
-      if (this.adsType === 'deactivated') {
+      if (adsType === 'deactivated') {
         return restService.getDeactivatedAds(this.options.page, this.options.itemsPerPage);
       }
       throw new Error('Wrong adsType');
@@ -228,7 +227,7 @@ export default {
     },
     options: {
       async handler() {
-        const res = await this.getAds();
+        const res = await this.getAds(this.adsType);
         this.ads = res.data;
         this.totalAds = res.page.totalElements;
         this.loading = false;

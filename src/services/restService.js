@@ -31,7 +31,9 @@ export default {
         data: response.data._embedded.ads,
         page: response.data.page,
       }))
-      .catch((error) => error.response.data.message));
+      .catch((error) => {
+        console.log(error.response.data.message);
+      }));
   },
   async getDeactivatedAds(page, size) {
     return Object.freeze(axios.get(`${process.env.VUE_APP_REST_API_URL}/ads/search/findAllByDeactivatedIsNotNull`, {
@@ -46,7 +48,10 @@ export default {
         data: response.data._embedded.ads,
         page: response.data.page,
       }))
-      .catch((error) => error.response.data.message));
+      .catch((error) => {
+        debugger;
+        console.log(error);
+      }));
   },
   async login(user) {
     return axios
@@ -55,6 +60,8 @@ export default {
         password: user.password,
       })
       .then((response) => store.setUserData(response.data))
-      .catch((error) => console.log(error.response.data.message));
+      .catch((error) => {
+        console.log(error);
+      });
   },
 };
