@@ -9,14 +9,14 @@ import login from '../stubs/login.json';
 export default {
   async getLatestAds() {
     const axiosMock = new AxiosMockAdapter(axios);
-    axiosMock.onGet(`${process.env.VUE_APP_REST_API_URL}/ads`).replyOnce(200, ads);
+    axiosMock.onGet(`${process.env.VUE_APP_REST_API_URL}/notices`).replyOnce(200, ads);
     return restService.getLatestAds().finally(
       () => axiosMock.restore(),
     );
   },
   async getDeactivatedAds() {
     const axiosMock = new AxiosMockAdapter(axios);
-    axiosMock.onGet(`${process.env.VUE_APP_REST_API_URL}/ads/search/findAllByDeactivatedIsNotNull`).replyOnce(200, deactivatedAds);
+    axiosMock.onGet(`${process.env.VUE_APP_REST_API_URL}/notices/search/findAllByDeactivatedIsNotNull`).replyOnce(200, deactivatedAds);
     return restService.getDeactivatedAds().finally(
       () => axiosMock.restore(),
     );

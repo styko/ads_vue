@@ -19,7 +19,7 @@ function authHeader() {
 /* eslint no-underscore-dangle: 0 */
 export default {
   async getLatestAds(page, size) {
-    return Object.freeze(axios.get(`${process.env.VUE_APP_REST_API_URL}/ads`, {
+    return Object.freeze(axios.get(`${process.env.VUE_APP_REST_API_URL}/notices`, {
       headers: authHeader(),
       params: {
         page: page - 1,
@@ -36,7 +36,7 @@ export default {
       }));
   },
   async getDeactivatedAds(page, size) {
-    return Object.freeze(axios.get(`${process.env.VUE_APP_REST_API_URL}/ads/search/findAllByDeactivatedIsNotNull`, {
+    return Object.freeze(axios.get(`${process.env.VUE_APP_REST_API_URL}/notices/search/findAllByDeactivatedIsNotNull`, {
       headers: authHeader(),
       params: {
         page: page - 1,
