@@ -28,7 +28,7 @@ export default {
       },
     })
       .then((response) => ({
-        data: response.data._embedded.ads,
+        data: response.data._embedded.notices,
         page: response.data.page,
       }))
       .catch((error) => {
@@ -45,7 +45,7 @@ export default {
       },
     })
       .then((response) => ({
-        data: response.data._embedded.ads,
+        data: response.data._embedded.notices,
         page: response.data.page,
       }))
       .catch((error) => {
