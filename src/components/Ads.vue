@@ -123,10 +123,10 @@
                     />
                   </v-col>
                   <v-col cols="12" sm="6" md="4">
-                    <PriceGraph :prices="dialogItem.prices"/>
+                    <Gallery :galleryUrl="dialogItem.galleryUrl"/>
                   </v-col>
                   <v-col>
-                    <Gallery :galleryUrl="dialogItem.galleryUrl"/>
+                    <PriceGraph :prices="dialogItem.prices"/>
                   </v-col>
                   <v-col>
                     <gmaps-map :options="mapOptions">
