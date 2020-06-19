@@ -128,6 +128,13 @@
                   <v-col>
                     <Gallery :galleryUrl="dialogItem.galleryUrl"/>
                   </v-col>
+                  <v-col>
+                    <gmaps-map :options="mapOptions">
+                      <gmaps-marker
+                        :position="{ lat: dialogItem.latitude, lng: dialogItem.longitude }"
+                      />
+                    </gmaps-map>
+                  </v-col>
                 </v-row>
                 <v-row>
                   <v-col>
@@ -161,12 +168,24 @@ import restService from '@/services/restService';
 import Gallery from '@/components/Gallery.vue';
 import PriceGraph from '@/components/PriceGraph.vue';
 import { DateTime } from 'luxon';
+import { gmapsMap, gmapsMarker } from 'x5-gmaps';
 
 export default {
   props: {
     adsType: String,
   },
   data: () => ({
+    mapOptions: {
+      center: { lat: 48.148598, lng: 17.107748 },
+      zoom: 10,
+      fullscreenControl: true,
+      mapTypeControl: false,
+      rotateControl: false,
+      scaleControl: false,
+      streetViewControl: false,
+      zoomControl: true,
+      minZoom: 10,
+    },
     dialog: false,
     dialogItem: {},
     dialogIndex: 0,
@@ -196,6 +215,8 @@ export default {
   components: {
     Gallery,
     PriceGraph,
+    gmapsMap,
+    gmapsMarker,
   },
   methods: {
     close() {

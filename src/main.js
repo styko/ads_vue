@@ -3,12 +3,14 @@ import HighchartsVue from 'highcharts-vue';
 import Highcharts from 'highcharts';
 import boost from 'highcharts/modules/boost';
 import Vue2Filters from 'vue2-filters';
+import x5GMaps from 'x5-gmaps';
 import App from './App.vue';
 import router from './router';
 import vuetify from './plugins/vuetify';
 import 'roboto-fontface/css/roboto/roboto-fontface.css';
 import '@mdi/font/css/materialdesignicons.css';
 
+Vue.use(x5GMaps, { key: process.env.VUE_APP_GTOKEN, libraries: ['places'] });
 
 Vue.use(Vue2Filters);
 

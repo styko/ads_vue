@@ -23,8 +23,8 @@
       "deactivated" : null,
       "countOfUpdates" : 1,
       "galleryUrl" : "https://www.topreality.sk/6i-rodinny-dom-pozemok-600m2-vyhlad-ktory-vezme-dych-r7278739/galeria.html#1",
-      "latitude" : "48.1923025",
-      "longitude" : "17.0592574",
+      "latitude" : 48.1923025,
+      "longitude" : 17.0592574,
       "_links" : {
         "self" : {
           "href" : "https://ads-sb.styko.online/notices/3"
@@ -56,8 +56,8 @@
       "deactivated" : null,
       "countOfUpdates" : 1,
       "galleryUrl" : "https://www.topreality.sk/krasny-4i-rodinny-dom-pozemok-544m2-r7279150/galeria.html#1",
-      "latitude" : "48.2342925",
-      "longitude" : "17.0446345",
+      "latitude" : 48.2342925,
+      "longitude" : 17.0446345,
       "_links" : {
         "self" : {
           "href" : "https://ads-sb.styko.online/notices/5"
@@ -89,8 +89,8 @@
       "deactivated" : null,
       "countOfUpdates" : 1,
       "galleryUrl" : "https://www.topreality.sk/4i-rodinny-dom-pozemok-600m2-vyhlad-ktory-vezme-dych-r7278750/galeria.html#1",
-      "latitude" : "48.1923025",
-      "longitude" : "17.0592574",
+      "latitude" : 48.1923025,
+      "longitude" : 17.0592574,
       "_links" : {
         "self" : {
           "href" : "https://ads-sb.styko.online/notices/8"
@@ -122,8 +122,8 @@
       "deactivated" : null,
       "countOfUpdates" : 1,
       "galleryUrl" : "https://www.topreality.sk/5i-rodinny-dom-pozemok-600m2-vyhlad-ktory-vezme-dych-r7278742/galeria.html#1",
-      "latitude" : "48.1923025",
-      "longitude" : "17.0592574",
+      "latitude" : 48.1923025,
+      "longitude" : 17.0592574,
       "_links" : {
         "self" : {
           "href" : "https://ads-sb.styko.online/notices/9"
@@ -155,8 +155,8 @@
       "deactivated" : null,
       "countOfUpdates" : 1,
       "galleryUrl" : "https://www.topreality.sk/celorocne-obyvatelny-hausboat-v-krasnej-prirode-v-ba-r7279465/galeria.html#1",
-      "latitude" : "48.065056",
-      "longitude" : "17.1140441",
+      "latitude" : 48.065056,
+      "longitude" : 17.1140441,
       "_links" : {
         "self" : {
           "href" : "https://ads-sb.styko.online/notices/1"

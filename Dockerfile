@@ -3,6 +3,8 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY ./ .
+RUN sed -i -e 's/${GTOKEN}/'"$GTOKEN"'/g' .env.production
+RUN cat .env.production
 RUN npm run build
 
 FROM nginx as production-stage
