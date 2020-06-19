@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY ./ .
-ENV GTOKEN ${GTOKEN}
+# dokku docker-options:add ads-vue build '--build-arg GTOKEN=xxx'
 RUN sed -i -e 's/${GTOKEN}/'"$GTOKEN"'/g' .env.production
 RUN printenv
 RUN cat .env.production
