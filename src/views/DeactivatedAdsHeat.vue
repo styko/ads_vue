@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="heatmap">
     <gmaps-map :options="mapOptions">
       <gmaps-heatmap :data="positions" :items="positions" :opacity="0.8" />
     </gmaps-map>
@@ -41,7 +41,7 @@ export default {
 };
 </script>
 <style>
-.gmaps-map {
+.heatmap gmaps-map {
   position: absolute !important;
 }
 </style>
