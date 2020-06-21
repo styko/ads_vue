@@ -42,6 +42,6 @@ export default {
 </script>
 <style>
 .gmaps-map {
-  position: absolute;
+  position: absolute !important;
 }
 </style>
