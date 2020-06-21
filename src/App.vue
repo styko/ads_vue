@@ -16,6 +16,7 @@
         <v-tabs align-with-title >
           <v-tab to="/latest-ads">Latest ads</v-tab>
           <v-tab to="/deactivated-ads">Deactivated ads</v-tab>
+          <v-tab to="/deactivated-ads-heat">Deactivated ads heatmap</v-tab>
         </v-tabs>
       </template>
       <v-spacer></v-spacer>
@@ -27,7 +28,7 @@
     </v-app-bar>
 
     <v-content>
-      <v-container fluid>
+      <v-container fluid >
         <router-view/>
       </v-container>
     </v-content>

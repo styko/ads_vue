@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import LatestAds from '../views/LatestAds.vue';
 import DeactivatedAds from '../views/DeactivatedAds.vue';
 import Login from '../views/Login.vue';
+import DeactivatedAdsHeat from '../views/DeactivatedAdsHeat.vue';
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/deactivated-ads',
     name: 'DeactivatedAds',
     component: DeactivatedAds,
+  },
+  {
+    path: '/deactivated-ads-heat',
+    name: 'DeactivatedAdsHeat',
+    component: DeactivatedAdsHeat,
   },
 ];
 

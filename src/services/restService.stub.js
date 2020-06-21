@@ -5,6 +5,7 @@ import restService from './restService.js'; // always use '.js'
 import ads from '../stubs/ads.json';
 import deactivatedAds from '../stubs/deactivatedAds.json';
 import login from '../stubs/login.json';
+import positions from '../stubs/positions.json';
 
 export default {
   async getLatestAds() {
@@ -16,12 +17,21 @@ export default {
   },
   async getDeactivatedAds() {
     const axiosMock = new AxiosMockAdapter(axios);
-    axiosMock.onGet(`${process.env.VUE_APP_REST_API_URL}/notices/search/findAllByDeactivatedIsNotNull`).replyOnce(200, deactivatedAds);
+    axiosMock.onGet(`${process.env.VUE_APP_REST_API_URL}/notices/search/findAllByDeactivatedIsNotNull`)
+      .replyOnce(200, deactivatedAds);
     return restService.getDeactivatedAds().finally(
       () => axiosMock.restore(),
     );
   },
-  login(user) {
+  async getPositionsOfDeactivatedAds() {
+    const axiosMock = new AxiosMockAdapter(axios);
+    axiosMock.onGet(`${process.env.VUE_APP_REST_API_URL}/notices/search/findAllByDeactivatedIsNotNull`)
+      .replyOnce(200, positions);
+    return restService.getPositionsOfDeactivatedAds().finally(
+      () => axiosMock.restore(),
+    );
+  },
+  async login(user) {
     const axiosMock = new AxiosMockAdapter(axios);
     axiosMock.onPost(`${process.env.VUE_APP_REST_API_URL}/api/auth/signin`, {
       username: user.username,

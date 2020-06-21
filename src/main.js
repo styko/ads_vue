@@ -10,7 +10,7 @@ import vuetify from './plugins/vuetify';
 import 'roboto-fontface/css/roboto/roboto-fontface.css';
 import '@mdi/font/css/materialdesignicons.css';
 
-Vue.use(x5GMaps, { key: process.env.VUE_APP_GTOKEN, libraries: ['places'] });
+Vue.use(x5GMaps, { key: process.env.VUE_APP_GTOKEN, libraries: ['places', 'visualization'] });
 
 Vue.use(Vue2Filters);
 

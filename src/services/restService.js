@@ -49,7 +49,19 @@ export default {
         page: response.data.page,
       }))
       .catch((error) => {
-        debugger;
+        console.log(error);
+      }));
+  },
+  async getPositionsOfDeactivatedAds() {
+    return Object.freeze(axios.get(`${process.env.VUE_APP_REST_API_URL}/notices/search/findAllByDeactivatedIsNotNull`, {
+      headers: authHeader(),
+      params: {
+        projection: 'position',
+        sort: 'created,desc',
+      },
+    })
+      .then((response) => response.data._embedded.notices)
+      .catch((error) => {
         console.log(error);
       }));
   },
