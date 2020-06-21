@@ -41,7 +41,7 @@ export default {
 };
 </script>
 <style>
-.heatmap gmaps-map {
+.heatmap .gmaps-map {
   position: absolute !important;
 }
 </style>
